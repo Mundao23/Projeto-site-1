@@ -3,85 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #barra_de_pesquisa{
-            max-width:100%;
-            margin: 0px;
-            padding: 0px;
-            background-color: tomato;
-            
-        }
-        #barra_de_pesquisa ul{
-            margin:auto;
-            list-style-type: none;
-            overflow:hidden;
-            padding: 20px;
-            position: static;
-            top: 0px;
-            width: 100%;
-        }
-        #barra_de_pesquisa li{
-            padding: 10px 15px;
-            display:inline;
-            float: left;
-            
-            
-        }
-        #car{
-            float: right;
-        }
-        
-        #div{
-            background-color: yellowgreen;
-            text-align: center;
-            height: 50px;
-            
-        }
-        div >div{
-               background-color: yellowgreen;
-               width: 50px;
-               height: 50px;
-               text-align: center;
-               line-height: 50px;
-               display: inline-block;
-               border-collapse: collapse;
-               padding-left: 20px;
-               padding-right:20px ;
-                
-        }
-    </style>
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Prototipo da Lolja</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+        <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
 </head>
 <body>
-    <header>
-        <div id="barra_de_pesquisa">
+   <header>
+        <p>FRETE GRÁTIS PARA TODO O BRASIL NAS COMPRAS ACIMA DE R$ 139,00</p>
+        <nav class="cab">
+            <a href=""><img src="img/lolja.png" alt=""></a>
+            <a href="">Vista o extraordinário</a>
+            <input  type="text">
+            <a href="#"><img id="band1" src="img/Portugal.png" alt=""></a>
+            <a href="#"><img id="band2" src="img/Brasil.png" alt=""></a>
+            <a href="#">Somos Lolja!</a>
+            <a href="login.html"><img class="logcar" src="img/t-shirt.png" alt="">entrar</a>
+            <a href="#"><img class="logcar" src="img/carrinho.png" alt=""></a>
+        </nav>
+        <nav id="barra_de_pesquisa">
             <ul>
-                <li>Home</li>
-                <li>notícias</li>
-                <li>produtos</li>
-                <li>dowload</li>
-                <li>categorias</li>
-                <li>quems somos</li>
-                <li>Novidades</li>
-                <li id="car">Carrinho</li>
+                <li>
+                    <a href="coleções.html">COLEÇÕES</a>
+                        <ul class="place">
+                            <li>BONES</li>
+                            <li>CINELOJA</li>
+                            <li>CINELOJA CLÁSSICOS</li>
+                            <li>FESTIVAL</li>
+                            <li>IDENTIDADE</li>
+                            <li>JARDIM SECRETO</li>
+                            <li>MANGA INK.</li>
+                            <li>MILLENIUM</li>
+                            <li>PETFLIX</li>
+                            <li>POR TRENDS</li>
+                            <li>URBAN COLLECTION</li>
+                            <li>ZERANDO O AMOR</li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="camisetas.html">CAMISETAS</a>
+                    <ul  class="place">
+                        <li>LANÇAMENTOS</li>
+                        <li>ANIMES</li>
+                        <li>BÁSICAS</li>
+                        <li>CAVEIRA</li>
+                        <li>FILMES E SÉRIES</li>
+                        <li>FOOD</li>
+                        <li>GAMES</li>
+                        <li>HUMOR</li>
+                        <li>LITERATURA</li>
+                        <li>MÚSICA</li>
+                        <li>RAGLAN BRANCA</li>
+                        <li>RAGLAN CINZA</li>
+                        <li>RAGLAN PRTEA</li>
+                        <li>REGATA</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Blusão.html">BLUSÃO</a>
+                        <ul  class="place">
+                            <li>preto</li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="Moletons.htnl">MOLETONS</a>
+                        <ul  class="place">
+                            <li>COLEÇÃO MILLENIUN-INVERNO 2022</li>
+                            <li>BRANCO</li>
+                            <li>BÁSICO</li>
+                            <li>CALÇAS</li>
+                            <li>CANELA</li>
+                            <li>CINZA</li>
+                            <li>COLORIDOS</li>
+                            <li>PRETO</li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="Mangalonga.html">MANGA LONGA</a>
+                        <ul  class="place">
+                            <li>BRANCA</li>
+                            <li>PRETA</li>
+                            <li>RAGLAN CINZA</li>
+                        </ul>   
+                </li>
+                <li>
+                    <a href="parceiros.html">PARCEIROS</a>
+                </li>
+                <li>
+                    <a href="creators.html">CREATORS</a>
+                        <ul  class="place">
+                            <li>ACTION JELLY</li>
+                            <li>AHS BRASIL</li>
+                            <li>ALEMÃO DA CARAVAN</li>
+                            <li>AL3XEY</li>
+                            <li>ANNA BAGUNCEIRA</li>
+                            <li>ARQUEOLOGIA PELO MUNDO</li>
+                            <li>ASTRO ELIAS</li>
+                            <li>AUTOPAPO</li>
+                            <li>AUTO SUPER</li>
+                            <li>BEN-YUR PODCAST</li>
+                            <li>BEYOND</li>                                
+                        </ul>
+                </li>
+                <li>
+                    <a href="artistas.html">ARTISTAS</a>
+                        <ul  class="place">
+                            <li>ANA MAGANHA</li>
+                            <li>ANDRE CONSOLI</li>
+                            <li>ART CORVUS</li>
+                            <li>BERNARDO ABAD</li>
+                            <li>BUZSHEEP</li>
+                            <li>CÁ MASK</li>
+                            <li>CAROL REMPTO</li>                            
+                        </ul>
+                </li>
             </ul>
-        </div>
-    </header>
-   <nain>
-       <div id="div">
-            <div>
-                ajskajb
+        </nav>
+   </header> 
+   <main>
+        <section id="destaques">
+            <div id="banner" >
+                <img id="cartaz" src="img/cart1.png" alt="cartaz1">
+                <img src="img/cart3.png" alt="cartaz2">
+                <img src="img/cart4.png" alt="cartaz2">
+                <img src="img/cart5.png" alt="cartaz2">
+             
+               </div>
+        </section>
+        <section id="metodosdecompra">
+            <div id="mtdc">
+                <div><img src="img/c.credito.png" alt="">Parcele suas compras em até  3x sem juros</div>
+                <div><img src="img/frete.png" alt="">Entregamos para todo Brasil!</div>
+                <div><a href="https://www.youtube.com/channel/UCsVzRd2VmJr5h817u2B0lDQ" target="_blank"><img id="yt" src="img/youtube.png" alt="">Loja oficial do Youtube no Brasil</a></div>
             </div>
-            <div>
-                ajskajb
+        </section>
+        <section id="parceiros">
+            <div class="carousel">
+                <a href="">
+                    <div><img src="img/user-destaque/nami.jpg"        alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/luffy.jpg"       alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/Mordekaiser.jpg" alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/naruto.jpg"      alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/sanji.jpg"       alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/brook.jpg"       alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/zoro.jpg"        alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/cup1.jpg"        alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/cup2.jpg"        alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="img/user-destaque/sasuke.jpg"      alt=""></div>
+                </a>
             </div>
-            <div>
-                ajskajb
+        </section>
+        <section id="destdasemana">
+            <h1>DESTAQUES DA SEMANA</h1>
+            <hr>
+            <div class="ajca2">
+                <span id="destp"><a href=""><img src="img/destaquep.png" alt=""></a></span>
+                <span id="carousel2">
+                    <div><a href=""><img src="img/destca1.png" alt=""></a></div>
+                    <div><a href=""><img src="img/destca2.png" alt=""></a></div>
+                    <div><a href=""><img src="img/destca3.png" alt=""></a></div>
+                    <div><a href=""><img src="img/destca4.png" alt=""></a></div>
+                </span>
             </div>
-       </div>
-       <input type="number" id="vel">
-       <input type="button" value="verificar">
-   </nain> 
+        </section>
+        <section id="Lancamentos">
+            <div id="lan">
+                <span>
+                    <p>Lançamentos</p>
+                </span>
+                <span><a href=""><p>ver todos</p></a></span>
+             </div>
+            <hr>
+            <div class="Lcarousel">
+                <div><a href=""><img src="img/lançamentos/l1.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l2.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l3.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l4.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l5.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l6.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l7.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l8.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l9.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l10.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l11.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l12.png" alt=""></a></div>
+                <div><a href=""><img src="img/lançamentos/l13.png" alt=""></a></div>
+            </div>
+        </section>        
+   </main>
+   <footer>
+        <p>Desenvolvido por RJS</p>
+   </footer>        
 </body>
 </html>
